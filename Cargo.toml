@@ -1,0 +1,6 @@
+[package]
+name = "charcode"
+version = "0.1.0"
+authors = ["William Brown <firstyear@redhat.com>"]
+
+[dependencies]
