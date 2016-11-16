@@ -4,11 +4,14 @@ use super::traits::CharCoder;
 
 struct Noop;
 
-impl CharCoder for Noop {
+impl Noop {
     fn new() -> Self {
         Noop {}
     }
+}
 
+
+impl CharCoder for Noop {
     fn encode(&mut self, input: &str) -> String {
         String::from(input)
     }

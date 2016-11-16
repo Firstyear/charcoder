@@ -4,3 +4,11 @@ version = "0.1.0"
 authors = ["William Brown <firstyear@redhat.com>"]
 
 [dependencies]
+
+[[bin]]
+name = "20161015-email"
+path = "src/messages/20161015-email.rs"
+
+[[bin]]
+name = "20161116-kiwicon"
+path = "src/messages/20161116-kiwicon.rs"

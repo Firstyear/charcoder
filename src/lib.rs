@@ -5,11 +5,11 @@
 // - Modules that encode and decode
 // - Modules that require bru
 
-mod traits;
-
-mod noop;
-mod reverse;
-
-mod verify;
+pub mod traits;
+pub mod apply;
+pub mod noop;
+pub mod reverse;
+pub mod verify;
+pub mod substitution;
 
 
